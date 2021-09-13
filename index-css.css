@@ -1,0 +1,23 @@
+.section{
+    background-color:#00BFFF;
+    height: 100vh;
+    width: 100vh;
+}
+
+.div {
+    background-color: #D2B48C;
+    height: 60vh;
+    width: 60vw;
+    margin: 10%;
+    animation-name: rotate;
+    animation-duration: 300.00s;
+    animation-direction: normal;
+}
+@keyframes rotate{
+    0% {
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
